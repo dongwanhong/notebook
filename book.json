@@ -3,7 +3,8 @@
     "author": "Anani",
     "language": "zh-hans",
     "plugins": [
-        "favicon"
+        "favicon",
+        "toggle-chapters"
     ],
     "pluginsConfig": {
         "favicon": {

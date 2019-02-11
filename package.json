@@ -1,0 +1,11 @@
+{
+  "name": "notebook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Anani1994 <dongwhchn@163.com>",
+  "dependencies": {
+    "gitbook-plugin-favicon": "^0.0.2",
+    "gitbook-plugin-toggle-chapters": "^0.0.3"
+  },
+  "license": "MIT"
+}
