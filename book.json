@@ -1,0 +1,14 @@
+{
+    "title": "码良的笔记本",
+    "author": "Anani",
+    "language": "zh-hans",
+    "plugins": [
+        "favicon"
+    ],
+    "pluginsConfig": {
+        "favicon": {
+            "shortcut": "./src/images/favicon.ico",
+            "bookmark": "./src/images/favicon.ico"
+        }
+    }
+}
