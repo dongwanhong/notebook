@@ -7,7 +7,19 @@ gitbook-plugin-favicon@^0.0.2:
   resolved "http://registry.npm.taobao.org/gitbook-plugin-favicon/download/gitbook-plugin-favicon-0.0.2.tgz#b3e41642f152afc6c4535fd9b635dfe31b4c8772"
   integrity sha1-s+QWQvFSr8bEU1/ZtjXf4xtMh3I=
 
+gitbook-plugin-tbfed-pagefooter@^0.0.1:
+  version "0.0.1"
+  resolved "http://registry.npm.taobao.org/gitbook-plugin-tbfed-pagefooter/download/gitbook-plugin-tbfed-pagefooter-0.0.1.tgz#16ee784062dd8504264c477e8765fc49c41bed3d"
+  integrity sha1-Fu54QGLdhQQmTEd+h2X8ScQb7T0=
+  dependencies:
+    moment "^2.10.6"
+
 gitbook-plugin-toggle-chapters@^0.0.3:
   version "0.0.3"
   resolved "http://registry.npm.taobao.org/gitbook-plugin-toggle-chapters/download/gitbook-plugin-toggle-chapters-0.0.3.tgz#6e5f5aa61b9b2e221c380cdf6e928320015ecfb9"
   integrity sha1-bl9aphubLiIcOAzfbpKDIAFez7k=
+
+moment@^2.10.6:
+  version "2.24.0"
+  resolved "http://registry.npm.taobao.org/moment/download/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  integrity sha1-DQVdU/UFKqZTyfbraLtdEr9cK1s=

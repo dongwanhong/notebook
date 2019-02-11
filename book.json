@@ -4,12 +4,18 @@
     "language": "zh-hans",
     "plugins": [
         "favicon",
-        "toggle-chapters"
+        "toggle-chapters",
+        "tbfed-pagefooter"
     ],
     "pluginsConfig": {
         "favicon": {
             "shortcut": "./src/images/favicon.ico",
             "bookmark": "./src/images/favicon.ico"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"&copy Anani",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
         }
     }
 }
