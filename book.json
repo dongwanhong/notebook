@@ -5,7 +5,8 @@
     "plugins": [
         "favicon",
         "toggle-chapters",
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+        "splitter"
     ],
     "pluginsConfig": {
         "favicon": {

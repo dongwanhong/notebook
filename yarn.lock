@@ -7,6 +7,11 @@ gitbook-plugin-favicon@^0.0.2:
   resolved "http://registry.npm.taobao.org/gitbook-plugin-favicon/download/gitbook-plugin-favicon-0.0.2.tgz#b3e41642f152afc6c4535fd9b635dfe31b4c8772"
   integrity sha1-s+QWQvFSr8bEU1/ZtjXf4xtMh3I=
 
+gitbook-plugin-splitter@^0.0.8:
+  version "0.0.8"
+  resolved "http://registry.npm.taobao.org/gitbook-plugin-splitter/download/gitbook-plugin-splitter-0.0.8.tgz#f2b0513060fc9266b46b04182e4eca1d4b71fafc"
+  integrity sha1-8rBRMGD8kma0awQYLk7KHUtx+vw=
+
 gitbook-plugin-tbfed-pagefooter@^0.0.1:
   version "0.0.1"
   resolved "http://registry.npm.taobao.org/gitbook-plugin-tbfed-pagefooter/download/gitbook-plugin-tbfed-pagefooter-0.0.1.tgz#16ee784062dd8504264c477e8765fc49c41bed3d"
