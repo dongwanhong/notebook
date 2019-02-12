@@ -20,7 +20,8 @@
         "back-to-top-button",
         "code",
         "-highlight",
-        "prism"
+        "prism",
+        "github"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
@@ -48,6 +49,9 @@
                 "vk",
                 "stumbleupon"
             ]
+        },
+        "github": {
+            "url": "https://github.com/Anani1994/market"
         }
     }
 }
