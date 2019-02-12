@@ -17,7 +17,10 @@
         "splitter",
         "-sharing",
         "sharing-plus",
-        "back-to-top-button"
+        "back-to-top-button",
+        "code",
+        "-highlight",
+        "prism"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
