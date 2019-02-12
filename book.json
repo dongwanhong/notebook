@@ -12,7 +12,7 @@
     },
     "plugins": [
         "custom-favicon",
-        "toggle-chapters",
+        "chapter-fold",
         "tbfed-pagefooter",
         "splitter",
         "-sharing",
