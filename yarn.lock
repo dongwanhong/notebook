@@ -114,6 +114,13 @@ gitbook-plugin-favicon@^0.0.2:
   resolved "http://registry.npm.taobao.org/gitbook-plugin-favicon/download/gitbook-plugin-favicon-0.0.2.tgz#b3e41642f152afc6c4535fd9b635dfe31b4c8772"
   integrity sha1-s+QWQvFSr8bEU1/ZtjXf4xtMh3I=
 
+gitbook-plugin-sharing-plus@^0.0.2:
+  version "0.0.2"
+  resolved "http://registry.npm.taobao.org/gitbook-plugin-sharing-plus/download/gitbook-plugin-sharing-plus-0.0.2.tgz#16cb581800a292f01bbd8d7d21cea3203d09733f"
+  integrity sha1-FstYGACikvAbvY19Ic6jID0Jcz8=
+  dependencies:
+    lodash "^3.10.1"
+
 gitbook-plugin-splitter@^0.0.8:
   version "0.0.8"
   resolved "http://registry.npm.taobao.org/gitbook-plugin-splitter/download/gitbook-plugin-splitter-0.0.8.tgz#f2b0513060fc9266b46b04182e4eca1d4b71fafc"
@@ -191,6 +198,11 @@ jsonfile@^4.0.0:
   integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
   optionalDependencies:
     graceful-fs "^4.1.6"
+
+lodash@^3.10.1:
+  version "3.10.1"
+  resolved "http://registry.npm.taobao.org/lodash/download/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+  integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 
 lodash@^4.17.10:
   version "4.17.11"

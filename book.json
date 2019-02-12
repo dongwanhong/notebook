@@ -1,19 +1,47 @@
 {
     "title": "码良的笔记本",
     "author": "Anani",
+    "description": "码良的笔记本，记录学习中的点点滴滴。",
     "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "Home": "https://www.baidu.com"
+        }
+    },
     "plugins": [
         "custom-favicon",
         "toggle-chapters",
         "tbfed-pagefooter",
-        "splitter"
+        "splitter",
+        "-sharing",
+        "sharing-plus"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
         "tbfed-pagefooter": {
-            "copyright":"&copy Anani",
+            "copyright": "&copy Anani",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "douban": true,
+            "qq": true,
+            "all": [
+                "google",
+                "instapaper",
+                "weibo",
+                "qzone",
+                "linkedin",
+                "messenger",
+                "viber",
+                "whatsapp",
+                "pocket",
+                "hatenaBookmark",
+                "vk",
+                "stumbleupon"
+            ]
         }
     }
 }
