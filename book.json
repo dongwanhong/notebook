@@ -21,7 +21,8 @@
         "code",
         "-highlight",
         "prism",
-        "github"
+        "github",
+        "edit-link"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
@@ -52,6 +53,10 @@
         },
         "github": {
             "url": "https://github.com/Anani1994/market"
+        },
+        "edit-link": {
+            "base": "https://github.com/Anani1994/notebook/edit/master/",
+            "label": "Edit This Page"
         }
     }
 }

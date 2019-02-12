@@ -226,10 +226,10 @@ gitbook-plugin-custom-favicon@^0.0.4:
   resolved "http://registry.npm.taobao.org/gitbook-plugin-custom-favicon/download/gitbook-plugin-custom-favicon-0.0.4.tgz#cb73729d4758cb7c6c564e8efb035d1f6e08aecf"
   integrity sha1-y3NynUdYy3xsVk6O+wNdH24Irs8=
 
-gitbook-plugin-donate@^1.0.2:
-  version "1.0.2"
-  resolved "http://registry.npm.taobao.org/gitbook-plugin-donate/download/gitbook-plugin-donate-1.0.2.tgz#b5e9522cd693158e1afee780b5f01393fd323f64"
-  integrity sha1-telSLNaTFY4a/ueAtfATk/0yP2Q=
+gitbook-plugin-edit-link@^2.0.2:
+  version "2.0.2"
+  resolved "http://registry.npm.taobao.org/gitbook-plugin-edit-link/download/gitbook-plugin-edit-link-2.0.2.tgz#d8fcd927eced81e7a662a72d59db609eafd7e72f"
+  integrity sha1-2PzZJ+ztgeemYqctWdtgnq/X5y8=
 
 gitbook-plugin-favicon@^0.0.2:
   version "0.0.2"
