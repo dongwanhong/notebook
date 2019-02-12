@@ -104,6 +104,11 @@ gh-pages@^2.0.1:
     graceful-fs "^4.1.11"
     rimraf "^2.6.2"
 
+gitbook-plugin-custom-favicon@^0.0.4:
+  version "0.0.4"
+  resolved "http://registry.npm.taobao.org/gitbook-plugin-custom-favicon/download/gitbook-plugin-custom-favicon-0.0.4.tgz#cb73729d4758cb7c6c564e8efb035d1f6e08aecf"
+  integrity sha1-y3NynUdYy3xsVk6O+wNdH24Irs8=
+
 gitbook-plugin-favicon@^0.0.2:
   version "0.0.2"
   resolved "http://registry.npm.taobao.org/gitbook-plugin-favicon/download/gitbook-plugin-favicon-0.0.2.tgz#b3e41642f152afc6c4535fd9b635dfe31b4c8772"

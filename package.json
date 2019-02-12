@@ -10,6 +10,7 @@
     "deploy": "gh-pages --dist _book  --dest /  --branch gh-pages --dotfiles=true --add=true"
   },
   "dependencies": {
+    "gitbook-plugin-custom-favicon": "^0.0.4",
     "gitbook-plugin-favicon": "^0.0.2",
     "gitbook-plugin-splitter": "^0.0.8",
     "gitbook-plugin-tbfed-pagefooter": "^0.0.1",

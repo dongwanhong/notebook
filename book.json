@@ -3,16 +3,13 @@
     "author": "Anani",
     "language": "zh-hans",
     "plugins": [
-        "favicon",
+        "custom-favicon",
         "toggle-chapters",
         "tbfed-pagefooter",
         "splitter"
     ],
     "pluginsConfig": {
-        "favicon": {
-            "shortcut": "./src/images/favicon.ico",
-            "bookmark": "./src/images/favicon.ico"
-        },
+        "favicon": "./src/images/favicon.ico",
         "tbfed-pagefooter": {
             "copyright":"&copy Anani",
             "modify_label": "该文件修订时间：",
