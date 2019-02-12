@@ -3,9 +3,11 @@
     "author": "Anani",
     "description": "码良的笔记本，记录学习中的点点滴滴。",
     "language": "zh-hans",
+    "direction": "ltr",
+    "gitbook": ">= 3.2.3",
     "links": {
         "sidebar": {
-            "Home": "https://www.baidu.com"
+            "博客": "https://anani1994.github.io/blog/#/"
         }
     },
     "plugins": [
@@ -14,7 +16,8 @@
         "tbfed-pagefooter",
         "splitter",
         "-sharing",
-        "sharing-plus"
+        "sharing-plus",
+        "back-to-top-button"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
