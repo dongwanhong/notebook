@@ -1,11 +1,11 @@
 # Gitbook 初级指南
 通常大家在工作和生活中总会要记录一些东西，而做好的笔记最好不会丢失又操作简单，在这样的需求的驱动下我偶然接触到 `Gitbook` 这款工具，在此我对其如何使用作一个简单的记录。
 
-### 概念
+## 概念
 Modern book format and toolchain using Git and Markdown.
 `GitBook` 是一个基于 `Node.js` 的命令行工具，可使用 `Github/Git` 和 `Markdown` 来制作精美的电子书，事实上 `GitBook` 并不是关于 `Git` 的教程，但是结合 `Git` 我们可以对电子书进行有效的版本控制，国内外一些开发者更是通过 `GitBook` 和 `gitalk` 等一些插件创建属于自己的博客系统。
 
-### 作用
+## 作用
 `GitBook` 支持输出多种文档格式：
  * **静态站点**：`GitBook` 默认输出该种格式，生成的静态站点可直接托管搭载 Github Pages 服务上。
  * **PDF**：需要安装 `gitbook-pdf` 依赖。
@@ -13,7 +13,7 @@ Modern book format and toolchain using Git and Markdown.
  * **单HTML网页**：支持将内容输出为单页的 `HTML`。
  * **JSON**：一般用于电子书的调试或元数据提取。
 
-### 安装 Node.js
+## 安装 Node.js
 因为 `GitBook` 是基于 `Node.js` 的工具，所以我们首先需要安装 `Node.js`（[下载地址](https://nodejs.org/en/download/)），找到对应平台的版本安装即可。
 现在安装 `Node.js` 都会默认安装 `npm`（包管理工具），所以我们不用单独安装 npm，安装完成通过以下命令检查是否安装成功：
 ``` bash
@@ -24,7 +24,7 @@ $ node -v
 # npm 安装成功后会显示 npm 的版本号
 $ npm -v
 ```
-### 安装 Gitbook
+## 安装 Gitbook
 当上面的工具都安装完成后打开命令行，执行以下命令安装 GitBook：
 ``` bash
 $ npm install -g gitbook-cli
@@ -35,7 +35,7 @@ $ npm install -g gitbook-cli
 $ gitbook-cli -v
 ```
 
-### 基础使用
+## 基础使用
 创建第一本电子书
 如果将第一本电子书的名字取名 mybook，那么创建该电子书的方法有两个，首先你可以创建一个文件夹名为 mybook 然后在终端打开该文件夹并执行下面的命令：
 ``` bash
@@ -54,7 +54,7 @@ $ gitbook serve
 $ gitbook build
 ```
 
-### 参考资料
+## 参考资料
 * [Gitbook Github 地址](https://github.com/GitbookIO/gitbook)
 * [Gitbook 工具链文档](https://toolchain.gitbook.com/)
 * [官方插件](https://plugins.gitbook.com/)

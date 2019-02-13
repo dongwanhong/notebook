@@ -22,7 +22,8 @@
         "prism",
         "github",
         "edit-link",
-        "page-copyright"
+        "page-copyright",
+        "anchor-navigation-ex"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
@@ -61,6 +62,30 @@
             "token": null,
             "style": "normal",
             "noPowered": true
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": true,
+            "mode": "float",
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "showGoTop":false,
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        },
+        "theme-default": {
+            "showLevel": false
         }
     }
 }
