@@ -276,12 +276,10 @@ gitbook-plugin-splitter@^0.0.8:
   resolved "http://registry.npm.taobao.org/gitbook-plugin-splitter/download/gitbook-plugin-splitter-0.0.8.tgz#f2b0513060fc9266b46b04182e4eca1d4b71fafc"
   integrity sha1-8rBRMGD8kma0awQYLk7KHUtx+vw=
 
-gitbook-plugin-tbfed-pagefooter@^0.0.1:
-  version "0.0.1"
-  resolved "http://registry.npm.taobao.org/gitbook-plugin-tbfed-pagefooter/download/gitbook-plugin-tbfed-pagefooter-0.0.1.tgz#16ee784062dd8504264c477e8765fc49c41bed3d"
-  integrity sha1-Fu54QGLdhQQmTEd+h2X8ScQb7T0=
-  dependencies:
-    moment "^2.10.6"
+gitbook-plugin-terminal@^0.3.2:
+  version "0.3.2"
+  resolved "http://registry.npm.taobao.org/gitbook-plugin-terminal/download/gitbook-plugin-terminal-0.3.2.tgz#c9aca7eaff1a0357cafd46274f38ae900d7d9dd7"
+  integrity sha1-yayn6v8aA1fK/UYnTziukA19ndc=
 
 github-slugid@1.0.1:
   version "1.0.1"
@@ -456,11 +454,6 @@ mkdirp@0.5.1:
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
-
-moment@^2.10.6:
-  version "2.24.0"
-  resolved "http://registry.npm.taobao.org/moment/download/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
-  integrity sha1-DQVdU/UFKqZTyfbraLtdEr9cK1s=
 
 normalize-url@^1.0.0:
   version "1.9.1"

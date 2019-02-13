@@ -27,7 +27,8 @@
         "github",
         "edit-link",
         "page-copyright",
-        "anchor-navigation-ex"
+        "anchor-navigation-ex",
+        "terminal"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
@@ -93,6 +94,11 @@
         },
         "code": {
             "copyButtons": false
+        },
+        "terminal": {
+            "copyButtons": false,
+            "fade": false,
+            "style": "flat"
         }
     }
 }
