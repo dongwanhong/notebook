@@ -245,11 +245,6 @@ gitbook-plugin-edit-link@^2.0.2:
   resolved "http://registry.npm.taobao.org/gitbook-plugin-edit-link/download/gitbook-plugin-edit-link-2.0.2.tgz#d8fcd927eced81e7a662a72d59db609eafd7e72f"
   integrity sha1-2PzZJ+ztgeemYqctWdtgnq/X5y8=
 
-gitbook-plugin-favicon@^0.0.2:
-  version "0.0.2"
-  resolved "http://registry.npm.taobao.org/gitbook-plugin-favicon/download/gitbook-plugin-favicon-0.0.2.tgz#b3e41642f152afc6c4535fd9b635dfe31b4c8772"
-  integrity sha1-s+QWQvFSr8bEU1/ZtjXf4xtMh3I=
-
 gitbook-plugin-github@2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/gitbook-plugin-github/download/gitbook-plugin-github-2.0.0.tgz#5166e763cfcc402d432880b7a6c85c1c54b56a8d"

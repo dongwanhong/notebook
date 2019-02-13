@@ -1,0 +1,35 @@
+h1,
+h2,
+h3 {
+    border-bottom: 1px solid #EFEAEA;
+}
+
+/* 隐藏头部 hover 状态下显示的标题 */
+.book-header h1 {
+    display: none;
+}
+
+/* 当内容不足时保证 page-copyright 插件的内容始终显示在底部 */
+.page-wrapper {
+    height: calc(100% - 50px);
+}
+
+.page-inner {
+    min-height: 100%;
+    padding-bottom: 200px;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* 媒体查询 */
+@media screen and (min-width: 720px) {
+
+    /* 调节 page-copyright 插件在不显示二维码时样式错乱 */
+    .footer__main--normal {
+        bottom: -35px;
+    }
+}

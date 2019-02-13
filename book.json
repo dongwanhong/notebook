@@ -5,10 +5,14 @@
     "language": "zh-hans",
     "direction": "ltr",
     "gitbook": ">= 3.2.3",
+    "root": ".",
     "links": {
         "sidebar": {
             "博客": "https://anani1994.github.io/blog/#/"
         }
+    },
+    "styles": {
+        "website": "./src/styles/website.css"
     },
     "plugins": [
         "custom-favicon",
@@ -55,7 +59,7 @@
             "timeColor": "#666",
             "copyrightColor": "#666",
             "utcOffset": "8",
-            "isShowQRCode": true,
+            "isShowQRCode": false,
             "baseUri": "https://anani1994.github.io/notebook/",
             "isShowIssues": true,
             "repo": "notebook",
@@ -76,7 +80,7 @@
                 "level2Icon": "fa fa-hand-o-right",
                 "level3Icon": "fa fa-hand-o-right"
             },
-            "showGoTop":false,
+            "showGoTop": false,
             "pageTop": {
                 "showLevelIcon": false,
                 "level1Icon": "fa fa-hand-o-right",
@@ -86,6 +90,9 @@
         },
         "theme-default": {
             "showLevel": false
+        },
+        "code": {
+            "copyButtons": false
         }
     }
 }
