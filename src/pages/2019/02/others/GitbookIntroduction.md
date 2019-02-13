@@ -17,13 +17,13 @@ Modern book format and toolchain using Git and Markdown.
 因为 `GitBook` 是基于 `Node.js` 的工具，所以我们首先需要安装 `Node.js`（[下载地址](https://nodejs.org/en/download/)），找到对应平台的版本安装即可。
 现在安装 `Node.js` 都会默认安装 `npm`（包管理工具），所以我们不用单独安装 npm，安装完成通过以下命令检查是否安装成功：
 ``` bash
-# node 安装成功后会显示 node 的版本号
 $ node -v
 ```
+以上命令在 `node` 安装成功后会显示 `node` 的版本号。
 ``` bash
-# npm 安装成功后会显示 npm 的版本号
 $ npm -v
 ```
+以上命令在 `npm` 安装成功后会显示 `npm` 的版本号。
 ## 安装 Gitbook
 当上面的工具都安装完成后打开命令行，执行以下命令安装 GitBook：
 ``` bash
@@ -31,9 +31,9 @@ $ npm install -g gitbook-cli
 ```
 检测安装是否成功：
 ``` bash
-# 安装成功后会显示 gitbook-cli 的版本号
 $ gitbook-cli -v
 ```
+以上命令在 `gitbook-cli` 安装成功后会显示 `gitbook-cli` 的版本号。
 
 ## 基础使用
 创建第一本电子书

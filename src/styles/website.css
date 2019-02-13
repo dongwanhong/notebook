@@ -1,0 +1,18 @@
+h1,
+h2,
+h3 {
+    border-bottom: 1px solid #EFEAEA;
+}
+
+/* 隐藏头部 hover 状态下显示的标题 */
+.book-header h1 {
+    display: none;
+}
+
+/* 媒体查询 */
+@media screen and (min-width: 720px) {
+    /* 调节 page-copyright 插件在不显示二维码时样式错乱 */
+    .footer__main--normal {
+        bottom: -35px;
+    }
+}
