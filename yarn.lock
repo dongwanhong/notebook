@@ -241,6 +241,11 @@ gitbook-plugin-github@2.0.0:
   resolved "http://registry.npm.taobao.org/gitbook-plugin-github/download/gitbook-plugin-github-2.0.0.tgz#5166e763cfcc402d432880b7a6c85c1c54b56a8d"
   integrity sha1-UWbnY8/MQC1DKIC3pshcHFS1ao0=
 
+gitbook-plugin-page-copyright@^1.0.8:
+  version "1.0.8"
+  resolved "http://registry.npm.taobao.org/gitbook-plugin-page-copyright/download/gitbook-plugin-page-copyright-1.0.8.tgz#fc83b5b044a1e83e7d8ab3bc59f293a021c89ba4"
+  integrity sha1-/IO1sESh6D59irO8WfKToCHIm6Q=
+
 gitbook-plugin-prism@^2.4.0:
   version "2.4.0"
   resolved "http://registry.npm.taobao.org/gitbook-plugin-prism/download/gitbook-plugin-prism-2.4.0.tgz#4128e2cbfa4c8c4610e8ed330056c249c5ceb2e9"

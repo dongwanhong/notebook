@@ -13,7 +13,6 @@
     "plugins": [
         "custom-favicon",
         "chapter-fold",
-        "tbfed-pagefooter",
         "splitter",
         "-sharing",
         "sharing-plus",
@@ -22,33 +21,21 @@
         "-highlight",
         "prism",
         "github",
-        "edit-link"
+        "edit-link",
+        "page-copyright"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
-        "tbfed-pagefooter": {
-            "copyright": "&copy Anani",
-            "modify_label": "该文件修订时间：",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
-        },
         "sharing": {
-            "facebook": true,
-            "twitter": true,
-            "douban": true,
-            "qq": true,
             "all": [
-                "google",
-                "instapaper",
+                "facebook",
+                "twitter",
+                "douban",
+                "qq",
                 "weibo",
                 "qzone",
-                "linkedin",
-                "messenger",
-                "viber",
-                "whatsapp",
-                "pocket",
-                "hatenaBookmark",
-                "vk",
-                "stumbleupon"
+                "google",
+                "instapaper"
             ]
         },
         "github": {
@@ -57,6 +44,23 @@
         "edit-link": {
             "base": "https://github.com/Anani1994/notebook/edit/master/",
             "label": "Edit This Page"
+        },
+        "page-copyright": {
+            "signature": "Anani",
+            "description": "modified at",
+            "wisdom": "More than a coder, more than a designer.",
+            "format": "yyyy-MM-dd hh:mm:ss",
+            "copyright": "Copyright &#169; Anani",
+            "timeColor": "#666",
+            "copyrightColor": "#666",
+            "utcOffset": "8",
+            "isShowQRCode": true,
+            "baseUri": "https://anani1994.github.io/notebook/",
+            "isShowIssues": true,
+            "repo": "notebook",
+            "token": null,
+            "style": "normal",
+            "noPowered": true
         }
     }
 }
