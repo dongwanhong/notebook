@@ -25,6 +25,43 @@ h3 {
     bottom: 0;
 }
 
+/* 结合 flexible-alerts 插件为自定义的警告风格提供样式 */
+.alert.callout.error {
+    border-left-color: #F00 !important;
+}
+
+.alert.callout.error .title {
+    color: #F00;
+}
+
+.alert.flat.error {
+    color: #b71a1a;
+    background-color: #f57c7c;
+    border-color: #ecc9c9;
+}
+
+.alert.flat.error .title {
+    color: #9a1d1d;
+}
+
+.alert.callout.define {
+    border-left-color: #bb8820 !important;
+}
+
+.alert.callout.define .title {
+    color: #bb8820;
+}
+
+.alert.flat.define {
+    color: #efc776;
+    background-color: #f5f0e7;
+    border-color: #efe8da;
+}
+
+.alert.flat.define .title {
+    color: #ce9729;
+}
+
 /* 媒体查询 */
 @media screen and (min-width: 720px) {
 

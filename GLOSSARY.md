@@ -10,4 +10,4 @@
 
 `Markdown` 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，`Markdown` 可以使普通文本内容具有一定的格式，其语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。现如今它已经具有一系列的衍生版本，用于扩展 `Markdown` 的功能（如表格、脚注、内嵌HTML等等）。
 
-你可以点击 [Markdown](http://www.markdown.cn/) 了解更多关于该语法的使用规则。
+你可以点击 [Markdown](https://commonmark.org/) 了解更多关于该语法的使用规则，另外 `Gitbook` 也支持 `AsciiDoc`，你可以点击 [AsciiDoc Syntax Quick Reference](https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/) 查看更多相关的语法信息。

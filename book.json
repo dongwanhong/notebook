@@ -28,7 +28,8 @@
         "edit-link",
         "page-copyright",
         "anchor-navigation-ex",
-        "terminal"
+        "terminal",
+        "flexible-alerts"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
@@ -99,6 +100,31 @@
             "copyButtons": false,
             "fade": false,
             "style": "flat"
+        },
+        "flexible-alerts": {
+            "style": "callout",
+            "note": {
+                "label": "注意"
+            },
+            "tip": {
+                "label": "提示"
+            },
+            "warning": {
+                "label": "警告"
+            },
+            "danger": {
+                "label": "禁止"
+            },
+            "error": {
+                "label": "错误",
+                "icon": "fa fa-close",
+                "className": "error"
+            },
+            "define": {
+                "label": "Official description",
+                "icon": "fa fa-book",
+                "className": "define"
+            }
         }
     }
 }

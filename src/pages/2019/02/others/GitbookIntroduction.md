@@ -2,7 +2,8 @@
 通常大家在工作和生活中总会要记录一些东西，而做好的笔记最好不会丢失又操作简单，在这样的需求的驱动下我偶然接触到 `Gitbook` 这款工具，在此我对其如何使用作一个简单的记录。
 
 ## 概念
-Modern book format and toolchain using Git and Markdown.
+> [!DEFINE]
+> Modern book format and toolchain using Git and Markdown.
 
 `GitBook` 是一个基于 `Node.js` 的命令行工具，可使用 `Github/Git` 和 `Markdown` 来制作精美的电子书，事实上 `GitBook` 并不是关于 `Git` 的教程，但是结合 `Git` 我们可以对电子书进行有效的版本控制，国内外一些开发者更是通过 `GitBook` 和 `gitalk` 等一些插件创建属于自己的博客系统。
 
@@ -234,6 +235,7 @@ $ gitbook build
 * [Gitbook Github 地址](https://github.com/GitbookIO/gitbook)
 * [GitBook 文档](https://help.gitbook.com/)
 * [Gitbook 工具链文档](https://toolchain.gitbook.com/)
+* [编辑工具](https://legacy.gitbook.com/editor)
 * [官方插件](https://plugins.gitbook.com/)
 * [GitBook 插件整理](https://www.jianshu.com/p/427b8bb066e6)(网络文章，收集大部分常用插件并给出了大部分插件的使用方式)
 * [Gitbook 使用教程](http://gitbook.zhangjikai.com/)(网络教程，完整介绍从安装到配置以及插件等的使用)
