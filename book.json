@@ -29,7 +29,8 @@
         "page-copyright",
         "anchor-navigation-ex",
         "terminal",
-        "flexible-alerts"
+        "flexible-alerts",
+        "mermaid-gb3"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
@@ -125,6 +126,12 @@
                 "icon": "fa fa-book",
                 "className": "define"
             }
+        },
+        "prism": {
+            "ignore": [
+                "mermaid",
+                "eval-js"
+            ]
         }
     }
 }

@@ -18,6 +18,7 @@
     "gitbook-plugin-edit-link": "^2.0.2",
     "gitbook-plugin-flexible-alerts": "^1.0.1",
     "gitbook-plugin-github": "2.0.0",
+    "gitbook-plugin-mermaid-gb3": "^2.1.0",
     "gitbook-plugin-page-copyright": "^1.0.8",
     "gitbook-plugin-prism": "^2.4.0",
     "gitbook-plugin-sharing-plus": "^0.0.2",
