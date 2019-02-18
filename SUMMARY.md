@@ -7,6 +7,9 @@
 * [计算机](./src/pages/2019/02/computer/README.md)
     * [计算机网络基础](./src/pages/2019/02/computer/NetworkBasics.md)
     * [DataBase 基础概述](./src/pages/2019/02/computer/DataBaseIntroduction.md)
+* [开发者](./src/pages/2019/02/developer/README.md)
+    * [JavaScript](./src/pages/2019/02/developer/javascript/README.md)
+        * [JavaScript 基础](./src/pages/2019/02/developer/javascript/JavascriptBasics.md)
 * [大杂烩](./src/pages/2019/02/others/README.md)
     * [Gitbook 初级指南](./src/pages/2019/02/others/GitbookIntroduction.md)
 

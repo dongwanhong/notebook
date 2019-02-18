@@ -4,6 +4,26 @@ h3 {
     border-bottom: 1px solid #EFEAEA;
 }
 
+.text-info {
+    color: #17a2b8;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.text-warning {
+    color: #ffc107;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
 /* 隐藏头部 hover 状态下显示的标题 */
 .book-header h1 {
     display: none;
