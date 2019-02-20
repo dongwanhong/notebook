@@ -30,7 +30,8 @@
         "anchor-navigation-ex",
         "terminal",
         "flexible-alerts",
-        "mermaid-gb3"
+        "mermaid-gb3",
+        "auto-scroll-table"
     ],
     "pluginsConfig": {
         "favicon": "./src/images/favicon.ico",
