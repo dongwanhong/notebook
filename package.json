@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-auto-scroll-table": "^0.0.5",
     "gitbook-plugin-back-to-top-button": "^0.1.4",
     "gitbook-plugin-chapter-fold": "^0.0.4",
     "gitbook-plugin-code": "^0.1.0",

@@ -243,6 +243,11 @@ gitbook-plugin-anchor-navigation-ex@^1.0.14:
     colors "^1.1.2"
     github-slugid "1.0.1"
 
+gitbook-plugin-auto-scroll-table@^0.0.5:
+  version "0.0.5"
+  resolved "http://registry.npm.taobao.org/gitbook-plugin-auto-scroll-table/download/gitbook-plugin-auto-scroll-table-0.0.5.tgz#5856bced59083fab2d0d38f4a7215520fae305db"
+  integrity sha1-WFa87VkIP6stDTj0pyFVIPrjBds=
+
 gitbook-plugin-back-to-top-button@^0.1.4:
   version "0.1.4"
   resolved "http://registry.npm.taobao.org/gitbook-plugin-back-to-top-button/download/gitbook-plugin-back-to-top-button-0.1.4.tgz#e6218338b0ef19d58e6f6600994350b76e8035df"
