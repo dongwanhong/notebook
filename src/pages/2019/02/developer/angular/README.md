@@ -1,0 +1,1 @@
+`AngularJS` 诞生于 2009 年，由 `Misko Hevery` 等人创建，后为 `Google` 所收购。是一款优秀的前端 **JavaScript 框架**，它可通过 &lt;script&gt; 标签添加到 `HTML` 页面。现已经被用于 `Google` 的多款产品当中。`AngularJS` 有着诸多特性，最为核心的是：MVVM、模块化、自动化双向数据绑定、语义化标签、依赖注入等等。
