@@ -6,6 +6,7 @@
 
 * [计算机](./src/pages/2019/02/computer/README.md)
     * [计算机网络基础](./src/pages/2019/02/computer/NetworkBasics.md)
+    * [互联网是如何工作的](./src/pages/2019/02/computer/HowTheInternetWorks.md)
     * [DataBase 基础概述](./src/pages/2019/02/computer/DataBaseIntroduction.md)
 * [开发者](./src/pages/2019/02/developer/README.md)
     * [JavaScript](./src/pages/2019/02/developer/javascript/README.md)
