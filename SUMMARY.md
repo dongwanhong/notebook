@@ -16,6 +16,7 @@
         * [this](./src/pages/2019/02/developer/javascript/JavaScriptThis.md)
         * [数据类型和内存](./src/pages/2019/02/developer/javascript/DataTypeAndMemory.md)
         * [原型和原型链](./src/pages/2019/02/developer/javascript/JavaScriptPrototype.md)
+        * [执行上下文和作用域](./src/pages/2019/02/developer/javascript/ContextAndScope.md)
     * [Angular](./src/pages/2019/02/developer/angular/README.md)
         * [Angular 基础语法](./src/pages/2019/02/developer/angular/AngularBasics.md)
         * [ngClass 指令](./src/pages/2019/02/developer/angular/NgClass.md)
