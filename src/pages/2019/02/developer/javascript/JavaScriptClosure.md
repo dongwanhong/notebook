@@ -183,9 +183,9 @@ function fn (m, n) {
     }
 }
 
-var a = fn(0); a.fn(1); a.fn(2); a.fn(3);  //
-var b = fn(0).fn(1).fn(2).fn(3);           //
-var c = fn(0).fn(1); c.fn(2); c.fn(3);     //
+var a = fn(0); a.fn(1); a.fn(2); a.fn(3);  // undefined 0 0 0
+var b = fn(0).fn(1).fn(2).fn(3);           // undefined 0 1 2
+var c = fn(0).fn(1); c.fn(2); c.fn(3);     // undefined 0 1 1
 ```
 
 这个比较绕的是里外函数的名字都一样，实际上内部的函数最终调用的还是内部函数，只是在其中一个参数作为闭包被存储了起来。每次调用外部的函数或外部函数时都会产生新的闭吧，至于会打印什么值，主要是看创建闭包时那个被存储起来的参数是多少。
