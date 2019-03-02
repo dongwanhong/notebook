@@ -180,6 +180,7 @@ function bluify(e) {
 > [!NOTE|label:Note]
 > `this` 不能在执行期间被赋值，并且在每次函数被调用时 `this` 的值也可能会不同。
 > `ES5` 引入了 `bind` 方法来设置函数的 `this` 值，而不用考虑函数如何被调用的。
+> 匿名函数的执行环境具有全局性，因此其 `this` 对象通常指向 `window`。
 
 ## 参考资料
  * [JavaScript 的 this 原理 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2018/06/javascript-this.html)
