@@ -218,9 +218,9 @@ Sub.prototype.sayAge = function () {
     console.log(this.age);
 };
 
-var instance = new Sub('Anani', 23);
+var instance = new Sub('Anani', 24);
 instance.sayName(); // Anani
-instance.sayAge();  // 23
+instance.sayAge();  // 24
 ```
 
 高效率体现在它只调用了一次 `Sup` 构造函数，并且因此避免了在 `Sub`。`prototype` 上面创建不必要的、多余的属性。与此同时，原型链还能保持不变；因此，还能够正常使用 `instanceof` 和 `isPrototypeOf()`。开发人员普遍认为寄生组合式继承是引用类型最理想的继承范式。

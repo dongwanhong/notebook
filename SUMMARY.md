@@ -19,6 +19,7 @@
         * [执行上下文和作用域](./src/pages/2019/02/developer/javascript/ContextAndScope.md)
         * [闭包](./src/pages/2019/02/developer/javascript/JavaScriptClosure.md)
         * [继承](./src/pages/2019/02/developer/javascript/JavascriptInherit.md)
+        * [创建对象](./src/pages/2019/02/developer/javascript/CreateObject.md)
     * [Angular](./src/pages/2019/02/developer/angular/README.md)
         * [Angular 基础语法](./src/pages/2019/02/developer/angular/AngularBasics.md)
         * [ngClass 指令](./src/pages/2019/02/developer/angular/NgClass.md)
