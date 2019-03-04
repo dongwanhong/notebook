@@ -21,8 +21,11 @@
         * [继承](./src/pages/2019/02/developer/javascript/JavascriptInherit.md)
         * [创建对象](./src/pages/2019/02/developer/javascript/CreateObject.md)
     * [Angular](./src/pages/2019/02/developer/angular/README.md)
-        * [Angular 基础语法](./src/pages/2019/02/developer/angular/AngularBasics.md)
+        * [基础语法](./src/pages/2019/02/developer/angular/AngularBasics.md)
         * [ngClass 指令](./src/pages/2019/02/developer/angular/NgClass.md)
+        * [自定义指令](./src/pages/2019/02/developer/angular/CustomComponent.md)
+        * [使用笔记](./src/pages/2019/02/developer/angular/UseNote.md)
+        * [服务](./src/pages/2019/02/developer/angular/CreatingServices.md)
 * [大杂烩](./src/pages/2019/02/others/README.md)
     * [Gitbook 初级指南](./src/pages/2019/02/others/GitbookIntroduction.md)
 
