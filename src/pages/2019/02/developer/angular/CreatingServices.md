@@ -160,5 +160,49 @@ $provide 服务提供了在服务实例创建时对其进行拦截的功能，�
  * name（字符串）：将要拦截的服务名称。
  * decoratorFn（函数）：在服务实例化时调用该函数，这个函数由 `injector.invoke` 调用，可以将服务注入这个函数中。
 
+```html
+<body>
+    <script src="https://cdn.bootcss.com/angular.js/1.3.5/angular.min.js"></script>
+    <div ng-app="myApp">
+        <div ng-controller="MyController">
+            {{name}}
+        </div>
+    </div>
+    <script type="text/javascript">
+        var app = angular.module("myApp", []);
+        app.config(function (myServiceProvider) {
+            myServiceProvider.name = "Anani";
+        });
+        app.provider("myService", function () {
+            this.$get = function () {
+                var self = this;
+                var service = {};
+                service.getName = function () {
+                    return self.name;
+                }
+                return service;
+            }
+        });
+        app.controller("MyController", ["myService", "$scope", function (myService, $scope) {
+            $scope.name = myService.getName();
+        }]);
+        app.config(function ($provide) { $provide.decorator('myService', myServiceDecorator); })
+
+        function myServiceDecorator ($delegate, $log) {
+            // $delegate => The original service instance
+            return {
+                getName: function () {
+                    console.log('我是用来修饰的内容。');
+                    return $delegate.getName(); // 调用原本存在的方法
+                },
+            } // 修饰函数返回的对象会重写原本的服务
+        }
+    </script>
+</body>
+```
+
+对比前面 `provider()` 部分的代码，查看前后的差异，理解修饰的方式。
+
 ## 参考资料
  * AngularJS权威指南
+ * [AngularJS：API：$provide](https://code.angularjs.org/1.3.15/docs/api/auto/service/$provide)
