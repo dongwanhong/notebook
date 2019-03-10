@@ -4,6 +4,16 @@
 
 ---
 
+* [目录](./src/pages/Catalogue/README.md)
+    * [Computer](./src/pages/Catalogue/Computer.md)
+    * [JavaScript](./src/pages/Catalogue/JavaScript.md)
+    * [Angular](./src/pages/Catalogue/Angular.md)
+    * [Notes](./src/pages/Catalogue/Notes.md)
+    * [Others](./src/pages/Catalogue/Others.md)
+    * [WebsiteCollection](./src/pages/Catalogue/WebsiteCollection.md)
+
+---
+
 * [计算机](./src/pages/2019/02/computer/README.md)
     * [计算机网络基础](./src/pages/2019/02/computer/NetworkBasics.md)
     * [互联网是如何工作的](./src/pages/2019/02/computer/HowTheInternetWorks.md)
@@ -12,8 +22,8 @@
 * [开发者](./src/pages/2019/02/developer/README.md)
     * [JavaScript](./src/pages/2019/02/developer/javascript/README.md)
         * [基础](./src/pages/2019/02/developer/javascript/JavascriptBasics.md)
-        * [数据类型检测](./src/pages/2019/02/developer/javascript/ReferenceType.md)
-        * [引用类型](./src/pages/2019/02/developer/javascript/DataType.md)
+        * [引用类型](./src/pages/2019/02/developer/javascript/ReferenceType.md)
+        * [数据类型检测](./src/pages/2019/02/developer/javascript/DataType.md)
         * [this](./src/pages/2019/02/developer/javascript/JavaScriptThis.md)
         * [数据类型和内存](./src/pages/2019/02/developer/javascript/DataTypeAndMemory.md)
         * [原型和原型链](./src/pages/2019/02/developer/javascript/JavaScriptPrototype.md)
