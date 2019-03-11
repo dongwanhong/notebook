@@ -10,6 +10,7 @@
 | [闭包](../2019/02/developer/javascript/JavaScriptClosure.md) | 闭包是 `Javascript` 语言的一个难点，也是它的特色，很多高级应用都需要依靠闭包实现。 |
 | [继承](../2019/02/developer/javascript/JavascriptInherit.md) | 继承是OO语言中的一个最为人津津乐道的概念，在 `JavaScript` 中依然如此。 |
 | [创建对象](../2019/02/developer/javascript/CreateObject.md) | 记录常见对象的几种方式，以及几种方式中涉及到的概念和知识点。 |
-| [单线程执行](../2019/02/developer/javascript/SingleThread.md) | 搞清楚、弄明白 `JavaScript` 是单线程执行的，对学习和理解 `JavaScript` 至关重要。 |
-| [函数进阶](../2019/02/developer/javascript/FunctionProgression.md) | 你知道吗？函数实质上也是对象，函数名其实就是一个变量。 |
-| [AJAX 指北](../2019/02/developer/javascript/AjaxToNorth.md) | AJAX不是新的编程语言，而是一种使用现有标准的新方法，或者说是一套由 `JavaScript` 调用的API。。 |
+| [单线程执行](../2019/03/developer/javascript/SingleThread.md) | 搞清楚、弄明白 `JavaScript` 是单线程执行的，对学习和理解 `JavaScript` 至关重要。 |
+| [函数进阶](../2019/03/developer/javascript/FunctionProgression.md) | 你知道吗？函数实质上也是对象，函数名其实就是一个变量。 |
+| [AJAX 指北](../2019/03/developer/javascript/AjaxToNorth.md) | AJAX不是新的编程语言，而是一种使用现有标准的新方法，或者说是一套由 `JavaScript` 调用的API。 |
+| [跨域](../2019/03/developer/javascript/CrossDomain.md) | 理解跨域的概念及其出现的意义，并知悉如何解决。 |
