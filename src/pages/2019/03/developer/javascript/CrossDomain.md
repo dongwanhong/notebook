@@ -123,7 +123,9 @@ img.onload = img.onerror = function () {
 img.src = 'http://www.anani.com/image?name=anani';
 ```
 
-图像Ping有两个主要的缺点，一是只能发送GET请求，二是无法访问服务器的响应文本。因此，图像Ping只能用于浏览器与服务器间的单 向通信。
+图像Ping有两个主要的缺点，一是只能发送GET请求，二是无法访问服务器的响应文本。因此，图像Ping只能用于浏览器与服务器间的单向通信。
+
+跟图像Ping类似的技术还有 `link` 和 `iframe(iframe + form)`，它们都能发出跨域请求，后者更能使用POST方法，但是都是只能用于浏览器与服务器间的单向通信。
 
 ### JSONP
 JSONP是通过动态 `<script>` 元素来使用的，使用时可以为 `src` 属性指定一个跨域URL，它主要由两部分组成：回调函数和数据。
@@ -272,6 +274,11 @@ id: 1
 
 设置了ID后，`EventSource` 对象会跟踪上一次触发的事件。如果连接断开，会向服务器发送一个 包含名为 `Last-Event-ID` 的特殊HTTP头部的请求，以便服务器知道下一次该触发哪个事件。
 
+### 附录
+另外还有一些跨域技术，比如设置 `document.domain` 进行主域名相同，但子域名不同的 `iframe` 跨域 和代理、`canvas` 操作图片的跨域等问题。
+
+值得一提的是HTML5提供了一个接口 `window.postMessage()`，以专注实现不同窗口不同页面的跨域通讯。
+
 ## 参考资料
  * JavaScript 高级程序设计(第3版)
  * [浏览器的同源策略](https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy)
@@ -279,4 +286,6 @@ id: 1
  * [聊一聊 cookie](https://segmentfault.com/a/1190000004556040#articleHeader6)
  * [Cookie/Session的机制与安全](https://harttle.land/2015/08/10/cookie-session.html)
  * [Web安全测试之XSS](https://www.cnblogs.com/TankXiao/archive/2012/03/21/2337194.html)
+ * [解决canvas图片getImageData,toDataURL跨域问题](https://www.zhangxinxu.com/wordpress/2018/02/crossorigin-canvas-getimagedata-cors/)
+ * [window.postMessage](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage)
  * [跨域资源共享 CORS 详解](http://www.ruanyifeng.com/blog/2016/04/cors.html)
