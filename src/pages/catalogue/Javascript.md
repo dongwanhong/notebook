@@ -15,3 +15,4 @@
 | [AJAX 指北](../2019/03/developer/javascript/AjaxToNorth.md) | AJAX不是新的编程语言，而是一种使用现有标准的新方法，或者说是一套由 `JavaScript` 调用的API。 |
 | [跨域](../2019/03/developer/javascript/CrossDomain.md) | 理解跨域的概念及其出现的意义，并知悉如何解决。 |
 | [高级函数](../2019/03/developer/javascript/AdvancedFunctions.md) | 介绍一些常见的高级函数，书写整洁代码、提高代码性能。 |
+| [错误处理](../2019/03/developer/javascript/HandleError.md) | 介绍一些常见的高级函数，书写整洁代码、提高代码性能。 |
