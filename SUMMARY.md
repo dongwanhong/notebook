@@ -4,14 +4,14 @@
 
 ---
 
-* [目录](./src/pages/Catalogue/README.md)
-    * [Computer](./src/pages/Catalogue/Computer.md)
-    * [CSS](./src/pages/Catalogue/CSS.md)
-    * [JavaScript](./src/pages/Catalogue/JavaScript.md)
-    * [Angular](./src/pages/Catalogue/Angular.md)
-    * [Notes](./src/pages/Catalogue/Notes.md)
-    * [Others](./src/pages/Catalogue/Others.md)
-    * [WebsiteCollection](./src/pages/Catalogue/WebsiteCollection.md)
+* [目录](./src/pages/catalogue/README.md)
+    * [Computer](./src/pages/catalogue/Computer.md)
+    * [CSS](./src/pages/catalogue/CSS.md)
+    * [JavaScript](./src/pages/catalogue/JavaScript.md)
+    * [Angular](./src/pages/catalogue/Angular.md)
+    * [Notes](./src/pages/catalogue/Notes.md)
+    * [Others](./src/pages/catalogue/Others.md)
+    * [WebsiteCollection](./src/pages/catalogue/WebsiteCollection.md)
 
 ---
 
