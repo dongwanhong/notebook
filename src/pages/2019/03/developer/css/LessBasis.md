@@ -117,26 +117,20 @@ p {
 }
 ```
 
-### 就近原则和懒加载
-最后，我们需要知道变量的作用域就是就近原则，需要注意的是变量的加载是懒加载的。
+### 用变量代替变量
 
 ```less
-@color: #f00;
-.outter {
-    color: @color;
-    .inner {
-        @color: #0f0;
-        color: @color;
-        @color: #00f;
+@text: 'Hello Less!';
+@var: 'text';
+.P-text {
+    &::after {
+        content: @@var; // @@var => @text
     }
 }
 
 // 编译后的CSS
-.outter {
-  color: #f00;
-}
-.outter .inner {
-  color: #00f; // 因为懒加载最后得到的值是 #00f 而不是 #00f
+.P-text::after {
+  content: 'Hello Less!';
 }
 ```
 
@@ -162,6 +156,73 @@ p {
   margin: 10px;
   color: #ff0000;
   background-color: #ffff00;
+}
+```
+
+## @import
+`@import` 支持使用绝对或相对地址指定导入的外部文件。你可以把它放在代码中的任何位置，导入文件时的处理方式取决于文件的扩展名
+
+```less
+@import <pathto file>;
+```
+
+另外，为了在将Less文件编译生成CSS文件时，提高对外部文件的操作灵活性，还为@import指令提供了一些配置项。
+
+| 选项	| 含义 |
+| :-- | :-- |
+| reference	| 使用文件，但不会输出其内容（比如，使用引入文件的变量编译当前文件，但是会忽略引入文件的其他内容） |
+| inline | 对文件的内容不作任何处理，直接输出 |
+| less | 无论文件的扩展名是什么，都将作为LESS文件被输出 |
+| css | 无论文件的扩展名是什么，都将作为CSS文件被输出 |
+| once | 文件仅被导入一次 （这也是默认行为） |
+| multiple | 文件可以被导入多次 |
+| optional | 当文件不存在时，继续编译（即，该文件是可选的） |
+
+其使用方式也很简单。
+
+```less
+@import (keyword) <pathto file>;
+```
+
+## important
+在调用的混合集后面追加 `!important` 关键字，就可以使得混合集里所有的属性都继承 `!important` 。
+
+```less
+.danger() {
+    font-size: 12px;
+    color: #f00;
+}
+p {
+    .danger() !important;
+}
+
+// 编译结果
+p {
+  font-size: 12px !important;
+  color: #f00 !important;
+}
+```
+
+## 媒体查询
+传统的写法会讲同一个元素在不同媒体情况下的样式写在相应的位置，而Less提供了更方便的方式，缺点就是每一个元素都会编译出自己 `@media` 声明，并不会合并。
+
+```less
+// 传统的写法
+.container {
+    width: 80%;
+}
+@media screen and (maxwidth:768px) {
+    width: 100%;
+}
+
+// Less
+.container {
+    width: 100%;
+    @media screen {
+        @media (maxwidth:768px) {
+            width: 100%;
+        }
+    }
 }
 ```
 
@@ -285,60 +346,6 @@ p {
     .border(50px, solid, #f00);
 }
 ```
-
-### 匹配参数
-就像下面这样，第一个参数 `top` 和 `bottom` 要会找到方法中的匹配，如果匹配，将全部选择。另外，如果想要对任何匹配都匹配中，可以在混合函数中使用 `@_`。
-
-```less
-// mixin.less
-.triangle(@_, @width, @color) {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-}
-.triangle(top, @width, @color) {
-    border-width: @width;
-    border-color: transparent transparent @color transparent;
-    border-style: dashed dashed solid dashed;
-}
-.triangle(bottom, @width, @color) {
-    border-width: @width;
-    border-color: @color transparent transparent transparent;
-    border-style: solid dashed dashed dashed;
-}
-
-// triangle.less
-@import '../pathto/mixin.less';
-
-.triangle {
-    .top {
-        .triangle(top, 50px, #f00);
-    }
-    .bottom {
-        .triangle(bottom, 50px, #f00);
-    }
-}
-
-// 编译后的CSS
-.triangle .top {
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  border-width: 50px;
-  border-color: transparent transparent #f00 transparent;
-  border-style: dashed dashed solid dashed;
-}
-.triangle .bottom {
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  border-width: 50px;
-  border-color: #f00 transparent transparent transparent;
-  border-style: solid dashed dashed dashed;
-}
-```
-
-当然，上面的结果（编译后的CSS）并不是最优的，实际开发中会把上面公共的样式放在 `.triangle` 中，这里只是为匹配功能做示范。
 
 ## 继承
 混合固然很强大，但是选择器中 `element,element` 的形式却是它的短板，好在我们可以使用继承来解决这个问题。
