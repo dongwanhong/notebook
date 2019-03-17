@@ -49,6 +49,7 @@
     * [使用笔记](./src/pages/notes/README.md)
         * [AngularJS](./src/pages/notes/NgUse.md)
         * [Nvm](./src/pages/notes/NvmUse.md)
+        * [Npm](./src/pages/notes/NpmUse.md)
 * [大杂烩](./src/pages/2019/02/others/README.md)
     * [Gitbook 初级指南](./src/pages/2019/02/others/GitbookIntroduction.md)
 
