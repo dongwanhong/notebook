@@ -4,6 +4,10 @@ h3 {
     border-bottom: 1px solid #EFEAEA;
 }
 
+.text-right {
+    text-align: right;
+}
+
 .text-info {
     color: #17a2b8;
 }
