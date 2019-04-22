@@ -1,5 +1,4 @@
-# Could not restore untracked files from stash" issue
-How to fix？
+# Could not restore untracked files from stash" issue How to fix？
 
 ## 引言
 我们知道在一个分支上使用 `Git` 储藏后的内容可以把它用在任意一个分支上，而并不仅仅只是在它产生的分支上使用，这使得我们使用分支进行开发变得更加有利。

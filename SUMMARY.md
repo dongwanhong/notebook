@@ -14,11 +14,6 @@
 
 ---
 
- * [使用日志](./src/pages/catalogue/Notes.md)
- * [错误录](./src/pages/catalogue/Errors.md)
-
----
-
 * [计算机](./src/pages/2019/02/computer/README.md)
     * [计算机网络基础](./src/pages/2019/02/computer/NetworkBasics.md)
     * [互联网是如何工作的](./src/pages/2019/02/computer/HowTheInternetWorks.md)
@@ -29,9 +24,9 @@
     * [Linux 系统(Ubuntu)安装](./src/pages/2019/03/computer/LinuxSystemInstallation.md)
     * [搭建 Linux(ubuntu) 系统开发环境（一）](./src/pages/2019/03/computer/LinuxDev-0.md)
     * [搭建 Linux(ubuntu) 系统开发环境（二）](./src/pages/2019/03/computer/LinuxDev-1.md)
-    * [压缩命令](./src/pages/2019/03/computer/compress-file.md)
+    * [基本文件处理命令](./src/pages/2019/04/computer/FileHandling.md)
     * [目录处理命令](./src/pages/2019/03/computer/dir-manage.md)
-    * [LS 命令](./src/pages/2019/03/computer/LS.md)
+    * [压缩命令](./src/pages/2019/03/computer/compress-file.md)
 * [开发者](./src/pages/2019/02/developer/README.md)
     * [CSS](./src/pages/2019/03/developer/CSS/README.md)
       * [Less 基础](./src/pages/2019/03/developer/css/LessBasis.md)
@@ -80,6 +75,11 @@
         * [Yarn](./src/pages/notes/YarnUse.md)
 * [大杂烩](./src/pages/2019/02/others/README.md)
     * [Gitbook 初级指南](./src/pages/2019/02/others/GitbookIntroduction.md)
+
+---
+
+ * [错误录](./src/pages/catalogue/Errors.md)
+ * [使用日志](./src/pages/catalogue/Notes.md)
 
 ---
 
