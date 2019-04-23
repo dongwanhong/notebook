@@ -13,6 +13,7 @@
 
 | 名称 | 描述 |
 | :-- | :-- |
+| [Linux 基本知识](../2019/04/computer/LinuxBasis.md) | Linux，一套免费使用和自由传播的类Unix操作系统。 |
 | [基本文件处理命令](../2019/04/computer/FileHandling.md) | 列举介绍 Linux 中常用的文件和目录处理命令。 |
 | [目录处理命令](../2019/03/computer/dir-manage.md) | 囊括目录的增删改查操作命令。 |
 | [压缩命令](../2019/03/computer/compress-file.md) | 对文件或目录进行解压缩。 |

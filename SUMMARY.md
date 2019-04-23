@@ -24,6 +24,7 @@
     * [Linux 系统(Ubuntu)安装](./src/pages/2019/03/computer/LinuxSystemInstallation.md)
     * [搭建 Linux(ubuntu) 系统开发环境（一）](./src/pages/2019/03/computer/LinuxDev-0.md)
     * [搭建 Linux(ubuntu) 系统开发环境（二）](./src/pages/2019/03/computer/LinuxDev-1.md)
+    * [Linux 基本知识](./src/pages/2019/04/computer/LinuxBasis.md)
     * [基本文件处理命令](./src/pages/2019/04/computer/FileHandling.md)
     * [目录处理命令](./src/pages/2019/03/computer/dir-manage.md)
     * [压缩命令](./src/pages/2019/03/computer/compress-file.md)
