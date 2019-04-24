@@ -17,6 +17,8 @@
 | [基本文件处理命令](../2019/04/computer/FileHandling.md) | 列举介绍 Linux 中常用的文件和目录处理命令。 |
 | [目录处理命令](../2019/03/computer/dir-manage.md) | 囊括目录的增删改查操作命令。 |
 | [压缩命令](../2019/03/computer/compress-file.md) | 对文件或目录进行解压缩。 |
+| [链接（link）](../2019/04/computer/LinuxLink.md) | 为某一个文件在另外一个位置建立一个同步的链接。 |
+| [文件搜索](../2019/04/computer/FileSearch.md) | 为某一个文件在另外一个位置建立一个同步的链接。 |
 
 # 开发环境搭建
 

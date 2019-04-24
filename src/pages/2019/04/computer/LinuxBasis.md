@@ -69,6 +69,30 @@
     3、完整选项有时也具有对应的简化选项
   ```
 
+## 数据库的更新配置
+数据库的更新是根据配置文件为 `updatedb.conf` 来进行的，下面列出的是该文件的主要内容。
+
+```
+PRUNE_BIND_MOUNTS="yes"
+
+PRUNEFS="NFS nfs nfs4 rpc_pipefs afs binfmt_misc proc smbfs autofs iso9660 ncpfs coda devpts ftpfs
+
+devfs mfs shfs sysfs cifs lustre_lite tmpfs usbfs udf"
+
+PRUNENAMES=".git .bzr .hg .svn"
+
+PRUNEPATHS="/tmp /var/spool /media"
+
+```
+
+第一行表示是否进行限制搜索，如果为 `no` 时，相当于该问价以下规则无效。
+
+第二行是排除检索的文件系统类型, 即列出的文件系统类型不进行检索.
+
+第三行表示对哪些后缀的文件排除检索，不同后缀之间用空格隔开。
+
+第四行是排除检索的路径, 即列出的路径下的文件和子文件夹均跳过不进行检索。
+
 ## 参考资料
  * [Linux 系统启动过程 | 菜鸟教程](http://www.runoob.com/linux/linux-system-boot.html)
  * [Linux 系统目录结构 | 菜鸟教程](http://www.runoob.com/linux/linux-system-contents.html)
