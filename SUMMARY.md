@@ -30,6 +30,7 @@
     * [压缩命令](./src/pages/2019/03/computer/compress-file.md)
     * [链接（link）](./src/pages/2019/04/computer/LinuxLink.md)
     * [文件搜索](./src/pages/2019/04/computer/FileSearch.md)
+    * [查看文件](./src/pages/2019/04/computer/FileView.md)
 * [开发者](./src/pages/2019/02/developer/README.md)
     * [CSS](./src/pages/2019/03/developer/CSS/README.md)
       * [Less 基础](./src/pages/2019/03/developer/css/LessBasis.md)

@@ -18,7 +18,8 @@
 | [目录处理命令](../2019/03/computer/dir-manage.md) | 囊括目录的增删改查操作命令。 |
 | [压缩命令](../2019/03/computer/compress-file.md) | 对文件或目录进行解压缩。 |
 | [链接（link）](../2019/04/computer/LinuxLink.md) | 为某一个文件在另外一个位置建立一个同步的链接。 |
-| [文件搜索](../2019/04/computer/FileSearch.md) | 为某一个文件在另外一个位置建立一个同步的链接。 |
+| [文件搜索](../2019/04/computer/FileSearch.md) | 在系统中快速查找和处理想要操作的文件。 |
+| [查看文件](../2019/04/computer/FileView.md) | 显示或查找文件里符合条件的字符串。 |
 
 # 开发环境搭建
 
