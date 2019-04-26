@@ -31,6 +31,7 @@
     * [链接（link）](./src/pages/2019/04/computer/LinuxLink.md)
     * [文件搜索](./src/pages/2019/04/computer/FileSearch.md)
     * [查看文件](./src/pages/2019/04/computer/FileView.md)
+    * [查看命令帮助](./src/pages/2019/04/computer/ViewHelp.md)
 * [开发者](./src/pages/2019/02/developer/README.md)
     * [CSS](./src/pages/2019/03/developer/CSS/README.md)
       * [Less 基础](./src/pages/2019/03/developer/css/LessBasis.md)
