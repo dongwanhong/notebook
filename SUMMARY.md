@@ -32,6 +32,7 @@
     * [文件搜索](./src/pages/2019/04/computer/FileSearch.md)
     * [查看文件](./src/pages/2019/04/computer/FileView.md)
     * [查看命令帮助](./src/pages/2019/04/computer/ViewHelp.md)
+    * [查看用户登录信息](./src/pages/2019/04/computer/UserLog.md)
 * [开发者](./src/pages/2019/02/developer/README.md)
     * [CSS](./src/pages/2019/03/developer/CSS/README.md)
       * [Less 基础](./src/pages/2019/03/developer/css/LessBasis.md)

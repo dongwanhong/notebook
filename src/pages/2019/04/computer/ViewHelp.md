@@ -100,6 +100,5 @@ $ info [选项] [参数]
  * e 或 End：档的末尾（b 是 ending 的意思）。
 
 ## 参考资料
- * []()
  * [Linux达人养成计划 I](https://www.imooc.com/learn/175)
  * [man命令_Linux man 命令用法详解：查看Linux中的指令帮助](http://man.linuxde.net/man)
