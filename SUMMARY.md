@@ -35,6 +35,7 @@
     * [查看用户登录信息](./src/pages/2019/04/computer/UserLog.md)
     * [挂载](./src/pages/2019/04/computer/Mount.md)
     * [开关机命令](./src/pages/2019/04/computer/OpenClose.md)
+    * [Shell](./src/pages/2019/04/computer/Shell.md)
 * [开发者](./src/pages/2019/02/developer/README.md)
     * [CSS](./src/pages/2019/03/developer/CSS/README.md)
       * [Less 基础](./src/pages/2019/03/developer/css/LessBasis.md)
