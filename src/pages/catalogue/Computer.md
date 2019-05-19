@@ -26,6 +26,7 @@
 | [开关机命令](../2019/04/computer/OpenClose.md) | 系统关机或重启的控制命令。 |
 | [Shell](../2019/04/computer/Shell.md) | 为用户提供了向 Linux 内核发送请求以便运行程序的界面系统级程序。 |
 | [磁盘管理](../2019/04/computer/DiskManagement.md) | 认识磁盘管理基本命令、磁盘分区与格式化的内容。 |
+| [用户和用户组管理](../2019/05/computer/UserManagement.md) | 了解 Linux 系统中用户和用户组管理的内容。 |
 
 # 开发环境搭建
 

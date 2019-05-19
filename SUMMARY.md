@@ -37,6 +37,7 @@
     * [开关机命令](./src/pages/2019/04/computer/OpenClose.md)
     * [Shell](./src/pages/2019/04/computer/Shell.md)
     * [磁盘管理](./src/pages/2019/04/computer/DiskManagement.md)
+    * [用户和用户组管理](./src/pages/2019/05/computer/UserManagement.md)
 * [开发者](./src/pages/2019/02/developer/README.md)
     * [CSS](./src/pages/2019/03/developer/CSS/README.md)
       * [Less 基础](./src/pages/2019/03/developer/css/LessBasis.md)
