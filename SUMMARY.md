@@ -82,6 +82,7 @@
         * [Git 学习笔记](./src/pages/notes/GitNote.md)
     * [Database](./src/pages/2019/06/database/README.md)
         * [DataBase 基础概述](./src/pages/2019/02/computer/DataBaseIntroduction.md)
+        * [MySQL 基础](./src/pages/2019/06/database/Basis.md)
     * [使用笔记](./src/pages/notes/README.md)
         * [AngularJS](./src/pages/notes/NgUse.md)
         * [Nvm](./src/pages/notes/NvmUse.md)
