@@ -22,7 +22,7 @@ $ which [文件...]
 使用指令 `which` 查看指令 `bash` 的绝对路径。
 
 ```bash
-$ which bah
+$ which bash
 ```
 
 ## WHEREIS
@@ -51,7 +51,7 @@ $ whereis [-bfmsu][-B <目录>...][-M <目录>...][-S <目录>...][文件...]
 使用指令 `whereis` 查看指令 `bash` 的绝对路径。
 
 ```bash
-$ whereis bah
+$ whereis bash
 ```
 
 ## LOCATE

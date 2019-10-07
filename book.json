@@ -8,7 +8,7 @@
     "root": ".",
     "links": {
         "sidebar": {
-            "博客": "https://anani1994.github.io/blog/#/"
+            "博客": "https://dongwanhong.github.io/blog/#/"
         }
     },
     "styles": {
@@ -48,10 +48,10 @@
             ]
         },
         "github": {
-            "url": "https://github.com/Anani1994/market"
+            "url": "https://github.com/dongwanhong/"
         },
         "edit-link": {
-            "base": "https://github.com/Anani1994/notebook/edit/master/",
+            "base": "https://github.com/dongwanhong/notebook/edit/master/",
             "label": "Edit This Page"
         },
         "page-copyright": {
@@ -64,7 +64,7 @@
             "copyrightColor": "#666",
             "utcOffset": "8",
             "isShowQRCode": false,
-            "baseUri": "https://anani1994.github.io/notebook/",
+            "baseUri": "https://dongwanhong.github.io/notebook/",
             "isShowIssues": true,
             "repo": "notebook",
             "token": null,

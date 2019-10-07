@@ -175,7 +175,7 @@ $ ALTER TABLE 表名 CHANGE [COLUMN] 旧字段名 新字段名 字段类型 [字
 
 通过将上面的关键字 CHANGE 改为 MODIFY 即可更改字段类型或字段属性。
 
-```bah
+```bash
 $ ALTER TABLE 表名 MODIFY [COLUMN] 字段名 字段类型 [字段属性] [位置];
 ```
 
