@@ -8,7 +8,7 @@
     "root": ".",
     "links": {
         "sidebar": {
-            "博客": "https://dongwanhong.github.io/blog/#/"
+            "博客": "https://dongwanhong.github.io/#/"
         }
     },
     "styles": {

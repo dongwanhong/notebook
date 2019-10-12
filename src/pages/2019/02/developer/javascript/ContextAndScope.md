@@ -164,5 +164,5 @@ obj.fn(); // fn is not undefined
 第一种比较简单就不提了，第二种也不难，在函数 `fn` 中没有找到变量，那么就去外层作用域中查找，也就是全局作用域，由于此时我们定义在全局中的变量只有 `obj`，所以根本不会找到读取的变量，从而导致报错。
 
 ## 参考资料
- * [JavaScript 闭包](https://anani1994.github.io/anani1994.github.io/projects/BlogV1.0.0/blog-js/2017/10/closure.html)
+ * [JavaScript 闭包](https://dongwanhong.github.io/BlogV1.0.0/blog-js/2017/10/closure.html)
  * JavaScript 高级程序设计(第3版)

@@ -52,6 +52,6 @@ Fn.n(); // n in FnProto
 这个相对比较简单，可以参照上面的原型图。只要沿着原型链查找，如果能找到对应的方法就可以够顺利的执行，通过打印的结果也能清楚的知道方法存在的位置。
 
 ## 参考资料
- * [详解 javascrip 中的继承](https://anani1994.github.io/anani1994.github.io/projects/BlogV1.0.0/blog-js/2018/01/inherit.html)
+ * [详解 javascrip 中的继承](https://dongwanhong.github.io/BlogV1.0.0/blog-js/2018/01/inherit.html)
  * [深入理解javascript原型和闭包（完结）](http://www.cnblogs.com/wangfupeng1988/p/3977924.html))
  * [深入理解javascript原型和闭包（4）——隐式原型 - 王福朋 - 博客园](https://www.cnblogs.com/wangfupeng1988/p/3979290.html)

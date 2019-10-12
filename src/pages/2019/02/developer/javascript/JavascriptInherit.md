@@ -55,7 +55,7 @@ instance1.colors.length = 2;
 console.log(instance2.colors.join()); // red,bule
 ```
 
-可见 Sub 的所有实例都会共享这一个 `colors` 属性。 所以我们对 i`nstance1.colors` 的修改 能够通过 `instance2.colors` 反映出来。
+可见 Sub 的所有实例都会共享这一个 `colors` 属性。 所以我们对 `instance1.colors` 的修改 能够通过 `instance2.colors` 反映出来。
 
 原型链的第二个问题是：在创建子类型的实例时，不能向超类型的构造函数（Sup）中传递参数。实际上，应该说是没有办法在不影响所有对象实例的情况下，给超类型的构造函数传递参数。
 
