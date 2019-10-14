@@ -11,7 +11,6 @@
     * [JavaScript](./src/pages/catalogue/JavaScript.md)
     * [Angular](./src/pages/catalogue/Angular.md)
     * [Others](./src/pages/catalogue/Others.md)
-    * [WebsiteCollection](./src/pages/catalogue/WebsiteCollection.md)
 
 ---
 

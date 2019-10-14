@@ -68,12 +68,12 @@ $ sudo apt install fcitx-bin
 接下来直接安装输入法：
 
 ```bash
-sudo apt install fcitx-table
+$ sudo apt install fcitx-table
 ```
 
 安装完成之后我们需要进行相应的设置，在设置之前先重启一下，然后在系统设置里将键盘输入法系统改为 `fcitx`，并在 `fcitx` 设置中选择需要的输入法。
 
-输入法的安装由于是第一次安装，所以相关的操作比较混乱，所以安装介绍比较模糊，具体的安装步骤可以参考 [Ubuntu 18.04 添加中文输入法](https://blog.csdn.net/rznice/article/details/79841790) 和 [解决Ubuntu 18.04中文输入法的问题，安装搜狗拼音](https://blog.csdn.net/fx_yzjy101/article/details/80243710)。
+输入法的安装由于是第一次安装，所以相关的操作比较混乱，介绍比较模糊，具体的安装步骤可以参考 [Ubuntu 18.04 添加中文输入法](https://blog.csdn.net/rznice/article/details/79841790) 和 [解决Ubuntu 18.04中文输入法的问题，安装搜狗拼音](https://blog.csdn.net/fx_yzjy101/article/details/80243710)。
 
 由于我在安装 `Ubuntu` 系统时选择的是中文，所以中文输入法的使用只需要通过右上角来切换并可以直接使用。
 
