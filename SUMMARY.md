@@ -7,9 +7,10 @@
 * [目录](./src/pages/catalogue/README.md)
     * [Computer](./src/pages/catalogue/Computer.md)
     * [Database](./src/pages/catalogue/Database.md)
-    * [CSS](./src/pages/catalogue/CSS.md)
     * [JavaScript](./src/pages/catalogue/JavaScript.md)
+    * [CSS](./src/pages/catalogue/CSS.md)
     * [Angular](./src/pages/catalogue/Angular.md)
+    * [Git](./src/pages/catalogue/Git.md)
     * [Others](./src/pages/catalogue/Others.md)
 
 ---

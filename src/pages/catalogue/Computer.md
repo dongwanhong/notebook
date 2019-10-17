@@ -4,7 +4,7 @@
 | :-- | :-- |
 | [计算机系统](../2019/03/computer/ComputerSystem.md) | 数据库管理的计算机硬软件及网络系统。 |
 | [操作系统](../2019/03/computer/OperatingSystem.md) | 计算机系统的内核与基石。 |
-| [计算机网络基础](../2019/02/computer/NetworkBasics.md) | 介绍计算机网络的基本知识，包括OSI七层协议模型、TCP/IP四层模型。 |
+| [计算机网络基础](../2019/02/computer/NetworkBasics.md) | 介绍计算机网络的基本知识，包括 OSI 七层协议模型、TCP/IP 四层模型。 |
 | [互联网是如何工作的](../2019/02/computer/HowTheInternetWorks.md) | 介绍网络工作的传输途中需要设备，以及各个设备在整个运输途中扮演的角色和起到的作用。 |
 | [进程和线程](../2019/03/computer/ProcessAndThread.md) | 简单介绍进程和线程的概念及其之间的关系。 |
 
@@ -12,7 +12,7 @@
 
 | 名称 | 描述 |
 | :-- | :-- |
-| [Linux 基本知识](../2019/04/computer/LinuxBasis.md) | Linux，一套免费使用和自由传播的类Unix操作系统。 |
+| [Linux 基本知识](../2019/04/computer/LinuxBasis.md) | Linux，一套免费使用和自由传播的类 Unix 操作系统。 |
 | [基本文件处理命令](../2019/04/computer/FileHandling.md) | 列举介绍 Linux 中常用的文件和目录处理命令。 |
 | [目录处理命令](../2019/03/computer/dir-manage.md) | 囊括目录的增删改查操作命令。 |
 | [压缩命令](../2019/03/computer/compress-file.md) | 对文件或目录进行解压缩。 |
