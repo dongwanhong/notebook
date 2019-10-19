@@ -80,6 +80,8 @@
     * [Git](./src/pages/2019/03/developer/git/README.md)
         * [Could not restore untracked files from stash" issue](./src/pages/2019/03/developer/git/git-Issue-0.md)
         * [Git 学习笔记](./src/pages/notes/GitNote.md)
+        * [探索 Git 之谜（一）- 对象](./src/pages/2019/10/developer/git/ExploreMysteryOne.md)
+        * [探索 Git 之谜（二）- 引用](./src/pages/2019/10/developer/git/ExploreMysteryTwo.md)
     * [Database](./src/pages/2019/06/database/README.md)
         * [DataBase 基础概述](./src/pages/2019/02/computer/DataBaseIntroduction.md)
         * [MySQL 基础](./src/pages/2019/06/database/Basis.md)
