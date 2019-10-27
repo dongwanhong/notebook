@@ -52,7 +52,7 @@ angular.module('MyCtrl', ['$scope', function MyCtrl ($scope) {
 ## 在页面给变量默认值?
 
 ```html
-<img ng-src="./img/{{pathVariable || 'default'}}.png">
+{% raw %}<img ng-src="./img/{{pathVariable || 'default'}}.png">{% endraw %}
 ```
 
 ## 控制器之间共享数据
