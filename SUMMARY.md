@@ -11,6 +11,7 @@
     * [CSS](./src/pages/catalogue/CSS.md)
     * [Angular](./src/pages/catalogue/Angular.md)
     * [Git](./src/pages/catalogue/Git.md)
+    * [算法](./src/pages/catalogue/Algorithm.md)
     * [面试题](./src/pages/catalogue/Interview.md)
     * [Others](./src/pages/catalogue/Others.md)
 
@@ -86,6 +87,8 @@
     * [Database](./src/pages/2019/06/database/README.md)
         * [DataBase 基础概述](./src/pages/2019/02/computer/DataBaseIntroduction.md)
         * [MySQL 基础](./src/pages/2019/06/database/Basis.md)
+    * [算法](./src/pages/2019/10/developer/algorithm/README.md)
+        * [冒泡排序]](./src/pages/2019/10/developer/algorithm/BubbleSort.md)
     * [面试题](./src/pages/2019/10/developer/interview/README.md)
         * [作用域](./src/pages/2019/10/developer/interview/Scope.md)
     * [使用笔记](./src/pages/notes/README.md)
