@@ -91,6 +91,7 @@
         * [冒泡排序]](./src/pages/2019/10/developer/algorithm/BubbleSort.md)
         * [选择排序]](./src/pages/2019/10/developer/algorithm/SelectionSort.md)
         * [插入排序]](./src/pages/2019/10/developer/algorithm/InsertionSort.md)
+        * [归并排序]](./src/pages/2019/10/developer/algorithm/MergeSort.md)
     * [面试题](./src/pages/2019/10/developer/interview/README.md)
         * [作用域](./src/pages/2019/10/developer/interview/Scope.md)
     * [使用笔记](./src/pages/notes/README.md)
