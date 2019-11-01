@@ -94,6 +94,7 @@
         * [归并排序]](./src/pages/2019/10/developer/algorithm/MergeSort.md)
     * [面试题](./src/pages/2019/10/developer/interview/README.md)
         * [作用域](./src/pages/2019/10/developer/interview/Scope.md)
+        * [反转链表](./src/pages/2019/11/developer/interview/ReverseList.md)
     * [使用笔记](./src/pages/notes/README.md)
         * [AngularJS](./src/pages/notes/NgUse.md)
         * [Nvm](./src/pages/notes/NvmUse.md)
