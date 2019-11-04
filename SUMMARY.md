@@ -96,6 +96,7 @@
         * [作用域](./src/pages/2019/10/developer/interview/Scope.md)
         * [反转](./src/pages/2019/11/developer/interview/ReverseList.md)
         * [交换相邻节点](./src/pages/2019/11/developer/interview/SwapPairs.md)
+        * [反转数组](./src/pages/2019/11/developer/interview/Reverse.md)
     * [使用笔记](./src/pages/notes/README.md)
         * [AngularJS](./src/pages/notes/NgUse.md)
         * [Nvm](./src/pages/notes/NvmUse.md)
