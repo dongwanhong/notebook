@@ -50,3 +50,85 @@ console.log(p.name) // p2
 ```
 
 **在 `ECMAscript` 中所有函数的参数都是按值传递的。**在函数 `fn1` 的内部给 `person` 赋值之前，`person` 和外部 `p` 其实指向的是内存中同一个地址，因此修改后的内容会同时反应在外部。但由于按值传递的原因，我们继续改变内容 `person` 的值（指向）后，它们就不再指向同一个地址了，后续也就再无关系。
+
+## Example_3
+
+```javascript
+var a = 10,
+  b = 11,
+  c = 12
+
+function test(a) {
+  a = 1
+  var b = 2
+  c = 3
+}
+
+test(10)
+console.log(a)
+console.log(b)
+console.log(c)
+// 10
+// 11
+// 3
+```
+
+这和上面的题目很类似。
+
+## Example_4
+
+```javascript
+function fn(ary) {
+  ary[0] = 0
+  ary = [0]
+  ary[0] = 100
+  return ary
+}
+
+var res = fn(ary)
+console.log(ary) // [0, 2, 3, 4]
+console.log(res) // [100]
+```
+
+注意参数的传递都是按值传递的就可以了。
+
+## Example_5
+
+```javascript
+var a = 4
+
+function b(x, y, a) {
+  console.log(a)
+  arguments[2] = 10
+  console.log(a)
+}
+
+a = b(1, 2, 3)
+console.log(a)
+// 3
+// 10
+// undefined
+```
+
+[Arguments 对象 - JavaScript | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/arguments) 是一个类数组；它可以被设置，在非严格模式下与函数的实际形参之间共享（没有包含剩余参数、默认参数和解构赋值时）。
+
+另外，参与共享的参数以实参为准，超过实参的个数无法形成共享。简而言之，这种关系在函数执行形参赋值的一瞬间建立，后续的操作将无法再建立新的联系。
+
+## Example_6
+
+```javascript
+var foo = 'Hello';
+(function (foo) {
+  console.log(foo)
+  var foo = foo || 'world'
+  console.log(foo)
+})(foo)
+console.log(foo)
+// 'Hello'
+// 'Hello'
+// 'Hello'
+```
+
+函数参数可以看作是函数作用域内的私有变量。
+
+这里在变量提升（声明提升）前已经有这个同名（foo）变量了，所以不会再重复声明，也就是 `foo` 不存在变量提升。
