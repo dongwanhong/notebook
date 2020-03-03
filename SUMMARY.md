@@ -42,6 +42,7 @@
   - [Shell](./src/pages/2019/04/computer/Shell.md)
   - [磁盘管理](./src/pages/2019/04/computer/DiskManagement.md)
   - [用户和用户组管理](./src/pages/2019/05/computer/UserManagement.md)
+  - [Bat 基础](./src/pages/2020/03/computer/Bat.md)
 - [开发者](./src/pages/2019/02/developer/README.md)
   - [WEB](./src/pages/2019/03/developer/CSS/README.md)
     - [高性能网站建设指南](./src/pages/2020/02/developer/web/Performance.md)
