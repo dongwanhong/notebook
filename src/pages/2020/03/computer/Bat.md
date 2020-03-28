@@ -7,7 +7,7 @@
 `%cd%`：脚本执行的当前目录（全路径）。
 `%~dp0%`：脚本文件所在的目录（全路径），并且带结尾的 `\`。
 
-```bat
+```shell
 @echo off
 
 set path_cd=%cd%
@@ -31,7 +31,7 @@ pause
 
 例如在 NPM 自动生成的模块命令行脚本中有下面一行命令：
 
-```bat
+```shell
 # 将 PATHEXT 当中的 ;.JS; 替换为 ;，避免搜索 JavaScript 文件
 # https://stackoverflow.com/questions/28602962/why-to-exclude-js-from-pathext-for-global-node-js-commands-on-windows
 @SET PATHEXT=%PATHEXT:;.JS;=;%
@@ -41,7 +41,7 @@ pause
 
 提取子串 `%variable:~m[,n]%`，其中 `m` 是跳过的字符长度，`n` 是保留的字符长度（可省略），并且两者都可以是负数，表示从后往前数。
 
-```bat
+```shell
 @echo off
 
 set str=abcdefg

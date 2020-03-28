@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD040 -->
+
 # package.json
 
 每个项目的根目录下面，一般都有一个 `package.json` 文件，其中定义了这个项目所需要的各种模块，以及项目的配置信息（比如名称、版本、许可证等元数据）。
@@ -179,7 +181,7 @@ npm install pkg-name
 
 另外，对于在 GitHub、GitHub gist、Bitbucket 或 GitLab 的存储库，也可以使用与 `npm install` 相同的快捷语法。
 
-```textplain
+```
 "repository": "npm/npm"
 
 "repository": "github:user/repo"
