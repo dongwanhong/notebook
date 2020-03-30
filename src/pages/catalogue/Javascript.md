@@ -21,3 +21,4 @@
 | [RequireJS（三）](../2019/03/developer/javascript/RequireJS-2.md) | `RequireJS` 的基本配置。 |
 | [RequireJS（四）](../2019/03/developer/javascript/RequireJS-3.md) | `RequireJS` 实现 `jsonp` 服务。 |
 | [初识canvas](../2019/03/developer/javascript/CanvasBasis.md) | HTML5新添加 `<canvas>` 元素，这个元素负责在页面中设定一个区域，然后就可以通过 `JavaScript` 动态地在这个区域中绘制图形。 |
+| [JavaScript 中几种对属性的遍历方式](../2020/03/developer/javascript/ergodic.md) | JavaScript 中几种对属性的遍历方式，比如：for...in, for...of 等。 |
