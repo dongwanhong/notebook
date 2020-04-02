@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD041 -->
+
 | 名称 | 描述 |
 | :-- | :-- |
 | [Angular 基础语法](../2019/02/developer/angular/AngularBasics.md) | 对 `AngularJS` 中的相关概念做一个笼统的记录。 |
@@ -9,3 +11,4 @@
 | [UI-Router for AngularJS (三)](../2019/03/developer/angular/angular-ui-router-2.md) | UI-Router is the defacto standard for routing in AngularJS. |
 | [UI-Router for AngularJS (四)](../2019/03/developer/angular/angular-ui-router-3.md) | UI-Router is the defacto standard for routing in AngularJS. |
 | [UI-Router for AngularJS (五)](../2019/03/developer/angular/angular-ui-router-4.md) | UI-Router is the defacto standard for routing in AngularJS. |
+| [Angular 是如何监听数据变化的（一）](../2020/04/developer/angular/listeners.md) | 通过实现来了解 Angular 是如何监听数据变化的 |

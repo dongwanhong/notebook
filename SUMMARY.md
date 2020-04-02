@@ -88,6 +88,7 @@
     - [UI-Router for AngularJS (五)](./src/pages/2019/03/developer/angular/angular-ui-router-0.md)
     - [AngularJS 获取选中 radio 的值](./src/pages/2019/03/developer/angular/angular-radio.md)
     - [搭建 webpack-angular 基础开发环境](./src/pages/2019/03/developer/angular/angular-dev.md)
+    - [Angular 是如何监听数据变化的（一）](./src/pages/2020/04/developer/angular/listeners.md)
   - [Git](./src/pages/2019/03/developer/git/README.md)
     - [Could not restore untracked files from stash" issue](./src/pages/2019/03/developer/git/git-Issue-0.md)
     - [Git 学习笔记](./src/pages/notes/GitNote.md)
