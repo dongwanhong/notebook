@@ -108,6 +108,7 @@
     - [交换相邻节点](./src/pages/2019/11/developer/interview/SwapPairs.md)
     - [反转数组](./src/pages/2019/11/developer/interview/Reverse.md)
     - [数组去重](./src/pages/2019/11/developer/interview/UniqueArray.md)
+    - [Vue 中组件间的通信](./src/pages/2020/04/developer/interview/components-communication.md)
   - [使用笔记](./src/pages/notes/README.md)
     - [AngularJS](./src/pages/notes/NgUse.md)
     - [Nvm](./src/pages/notes/NvmUse.md)
