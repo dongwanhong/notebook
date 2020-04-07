@@ -12,3 +12,4 @@
 | [UI-Router for AngularJS (四)](../2019/03/developer/angular/angular-ui-router-3.md) | UI-Router is the defacto standard for routing in AngularJS. |
 | [UI-Router for AngularJS (五)](../2019/03/developer/angular/angular-ui-router-4.md) | UI-Router is the defacto standard for routing in AngularJS. |
 | [Angular 是如何监听数据变化的（一）](../2020/04/developer/angular/listeners.md) | 通过实现来了解 Angular 是如何监听数据变化的 |
+| [Angular 是如何监听数据变化的（二）](../2020/04/developer/angular/listeners.md) | 通过实现来了解 Angular 是如何监听数据变化的 |
