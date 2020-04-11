@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD041 -->
+
 | 类型 | 名称 | 描述 |
 | :-- | :-- | :-- |
 | JavaScript |||
@@ -8,4 +10,5 @@
 | [反转链表](../2019/11/developer/interview/ReverseList.md) | 反转单向链接的列表。 |
 | [Vue 中组件间的通信](../2020/04/developer/interview/components-communication.md) | 总结 Vue 中组件间的通信的方式。 |
 | [交换相邻节点](../2019/11/developer/interview/SwapPairs.md) | 给定一个链表，交换每两个相邻的节点并返回其头部。 |
-| [综合体](../2020/04/developer/interview/1.md) | 综合体。 |
+| [综合体](../2020/04/developer/interview/1.md) | 综合题。 |
+| [Vue 中的常见问题](../2020/04/developer/interview/vue-common-qa.md) | Vue 中的常见问题。 |
