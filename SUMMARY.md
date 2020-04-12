@@ -95,6 +95,7 @@
     - [Git 学习笔记](./src/pages/notes/GitNote.md)
     - [探索 Git 之谜（一）- 对象](./src/pages/2019/10/developer/git/ExploreMysteryOne.md)
     - [探索 Git 之谜（二）- 引用](./src/pages/2019/10/developer/git/ExploreMysteryTwo.md)
+    - [深入 Git 原理](./src/pages/2020/04/developer/git/deep.md)
   - [Database](./src/pages/2019/06/database/README.md)
     - [DataBase 基础概述](./src/pages/2019/02/computer/DataBaseIntroduction.md)
     - [MySQL 基础](./src/pages/2019/06/database/Basis.md)
