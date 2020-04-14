@@ -113,6 +113,7 @@
     - [Vue 中组件间的通信](./src/pages/2020/04/developer/interview/components-communication.md)
     - [综合题](./src/pages/2020/04/developer/interview/1.md)
     - [Vue 中的常见问题](./src/pages/2020/04/developer/interview/vue-common-qa.md)
+    - [Vue 中的响应式原理](./src/pages/2020/04/developer/interview/vue-mvvm.md)
   - [使用笔记](./src/pages/notes/README.md)
     - [AngularJS](./src/pages/notes/NgUse.md)
     - [Nvm](./src/pages/notes/NvmUse.md)

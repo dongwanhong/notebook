@@ -12,3 +12,4 @@
 | [交换相邻节点](../2019/11/developer/interview/SwapPairs.md) | 给定一个链表，交换每两个相邻的节点并返回其头部。 |
 | [综合体](../2020/04/developer/interview/1.md) | 综合题。 |
 | [Vue 中的常见问题](../2020/04/developer/interview/vue-common-qa.md) | Vue 中的常见问题。 |
+| [Vue 中的响应式原理](../2020/04/developer/interview/vue-mvvm.md) | 从无到有，理清 Vue 中的响应式原理。 |
