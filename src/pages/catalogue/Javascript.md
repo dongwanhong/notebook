@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD041 -->
+
 | 名称 | 描述 |
 | :-- | :-- |
 | [JavaScript 基础](../2019/02/developer/javascript/JavascriptBasics.md) | 对 `JavaScript` 的基础概念和语法做了一个简单的介绍，可以初步开始使用该语言进行交互。 |
@@ -22,3 +24,4 @@
 | [RequireJS（四）](../2019/03/developer/javascript/RequireJS-3.md) | `RequireJS` 实现 `jsonp` 服务。 |
 | [初识canvas](../2019/03/developer/javascript/CanvasBasis.md) | HTML5新添加 `<canvas>` 元素，这个元素负责在页面中设定一个区域，然后就可以通过 `JavaScript` 动态地在这个区域中绘制图形。 |
 | [JavaScript 中几种对属性的遍历方式](../2020/03/developer/javascript/ergodic.md) | JavaScript 中几种对属性的遍历方式，比如：for...in, for...of 等。 |
+| [Tapable 基本原理](../2020/04/developer/javascript/tapable.md) | 认识 Tapable 常见使用的原理。 |

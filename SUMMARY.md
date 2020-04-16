@@ -76,6 +76,7 @@
     - [RequireJS（四）](./src/pages/2019/03/developer/javascript/RequireJS-3.md)
     - [初识 canvas](./src/pages/2019/03/developer/javascript/CanvasBasis.md)
     - [JavaScript 中几种对属性的遍历方式](./src/pages/2020/03/developer/javascript/ergodic.md)
+    - [Tapable 基本原理](./src/pages/2020/04/developer/javascript/tapable.md)
   - [Angular](./src/pages/2019/02/developer/angular/README.md)
     - [基础语法](./src/pages/2019/02/developer/angular/AngularBasics.md)
     - [ngClass 指令](./src/pages/2019/02/developer/angular/NgClass.md)
