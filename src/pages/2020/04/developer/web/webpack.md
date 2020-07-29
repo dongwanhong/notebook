@@ -369,20 +369,11 @@ buildMoudle(modulePath, isEntry) {
 
 现在我们已经拿到了含有依赖关系的对象，接下就可以结合一个固定的模板来根据依赖关系产出我们最后需要的打包结果。在此我们借助 EJS 来完成我们的工作。
 
-首先，我们将之前通过 `webpack` 打包的 `main.js` 进行改动以作为我们的渲染模板。需要我们改动的地方主要就是传递给自执行函数的参数，它是有我们的依赖对象循环遍历产生的，另外就是函数里面调用 `__webpack_require__` 函数是传递的参数，也就是我们的入口文件。修改后的文件我们保存在 lib 目录下的 `main.ejs` 中：
+首先，我们将之前通过 `webpack` 打包的 `main.js` 进行改动以作为我们的渲染模板。
 
-```javascript
-;(function(modules) {
-    // 省略了部分内容...
-    return __webpack_require__((__webpack_require__.s = "<%-entryId%>"))
-})({
-    <%for(let key in modules) {%>
-        "<%-key%>": function(module, exports, __webpack_require__) {
-            eval(`<%-modules[key]%>`)
-        },
-    <%}%>
-})
-```
+需要我们改动的地方主要就是传递给自执行函数的参数，它是有我们的依赖对象循环遍历产生的，另外就是函数里面调用 `__webpack_require__` 函数是传递的参数，也就是我们的入口文件。修改后的文件我们保存在 `lib` 目录下的 `main.ejs` 中：
+
+<img src="../../../../../images/main.ejs.png" alt="SimpleDataTypes" style="width: 100%;height: 200px;">
 
 接着我们安装一下 `ejs` 包：
 
@@ -392,7 +383,7 @@ npm install --save-dev ejs
 
 然后在 `Compiler.js` 中引入：
 
-```javacript
+```javascript
 const ejs = require('ejs')
 ```
 
